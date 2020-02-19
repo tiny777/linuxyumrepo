@@ -1,0 +1,37 @@
+# Repository: https://rpms.remirepo.net/
+# Blog:       https://blog.remirepo.net/
+# Forum:      https://forum.remirepo.net/
+
+[remi]
+name=Remi's RPM repository for Enterprise Linux 8 - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/8/remi/$basearch/
+#mirrorlist=https://rpms.remirepo.net/enterprise/8/remi/$basearch/httpsmirror
+mirrorlist=http://cdn.remirepo.net/enterprise/8/remi/$basearch/mirror
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi.el8
+
+[remi-test]
+name=Remi's test RPM repository for Enterprise Linux 8 - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/8/test/$basearch/
+#mirrorlist=https://rpms.remirepo.net/enterprise/8/test/$basearch/mirror
+mirrorlist=http://cdn.remirepo.net/enterprise/8/test/$basearch/mirror
+# WARNING: If you enable this repository, you must also enable "remi"
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi.el8
+
+[remi-debuginfo]
+name=Remi's RPM repository for Enterprise Linux 8 - $basearch - debuginfo
+baseurl=http://rpms.remirepo.net/enterprise/8/debug-remi/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi.el8
+
+[remi-test-debuginfo]
+name=Remi's test RPM repository for Enterprise Linux 8 - $basearch - debuginfo
+baseurl=http://rpms.remirepo.net/enterprise/8/debug-test/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi.el8
+
