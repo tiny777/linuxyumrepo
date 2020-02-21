@@ -23,7 +23,7 @@
 [cr]
 name=CentOS-$releasever - cr
 #baseurl=http://mirror.centos.org/centos/$releasever/cr/$basearch/
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/cr/$basearch/
+baseurl=https://mirrors.aliyun.com/centos/$releasever/cr/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 enabled=0
