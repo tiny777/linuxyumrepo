@@ -1,5 +1,6 @@
 ### Name: ELRepo.org Community Enterprise Linux Repository for el7
 ### URL: http://elrepo.org/
+# rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 
 [elrepo]
 name=ELRepo.org Community Enterprise Linux Repository - el7
