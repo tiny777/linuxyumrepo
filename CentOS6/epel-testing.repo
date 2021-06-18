@@ -2,7 +2,7 @@
 name=Extra Packages for Enterprise Linux 6 - Testing - $basearch
 #baseurl=http://download.fedoraproject.org/pub/epel/testing/6/$basearch
 #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-epel6&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/testing/6/$basearch
+baseurl=https://mirrors.ustc.edu.cn/epel/testing/6/$basearch
 failovermethod=priority
 enabled=0
 gpgcheck=1
@@ -12,7 +12,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
 name=Extra Packages for Enterprise Linux 6 - Testing - $basearch - Debug
 #baseurl=http://download.fedoraproject.org/pub/epel/testing/6/$basearch/debug
 #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-debug-epel6&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/testing/6/$basearch
+baseurl=https://mirrors.ustc.edu.cn/epel/testing/6/$basearch
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
@@ -22,7 +22,7 @@ gpgcheck=1
 name=Extra Packages for Enterprise Linux 6 - Testing - $basearch - Source
 #baseurl=http://download.fedoraproject.org/pub/epel/testing/6/SRPMS
 #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-source-epel6&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/testing/6/SRPMS
+baseurl=https://mirrors.ustc.edu.cn/epel/testing/6/SRPMS
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6

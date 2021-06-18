@@ -2,7 +2,7 @@
 name=Fedora Modular $releasever - $basearch
 #baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/$releasever/Modular/$basearch/os/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-modular-$releasever&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/fedora/releases/$releasever/Modular/$basearch/os/
+baseurl=https://mirrors.ustc.edu.cn/fedora/releases/$releasever/Modular/$basearch/os/
 enabled=1
 #metadata_expire=7d
 repo_gpgcheck=0
@@ -15,7 +15,7 @@ skip_if_unavailable=False
 name=Fedora Modular $releasever - $basearch - Debug
 #baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/$releasever/Modular/$basearch/debug/tree/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-modular-debug-$releasever&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/fedora/releases/$releasever/Modular/$basearch/debug/tree/
+baseurl=https://mirrors.ustc.edu.cn/fedora/releases/$releasever/Modular/$basearch/debug/tree/
 enabled=0
 metadata_expire=7d
 repo_gpgcheck=0
@@ -28,7 +28,7 @@ skip_if_unavailable=False
 name=Fedora Modular $releasever - Source
 #baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/$releasever/Modular/source/tree/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-modular-source-$releasever&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/fedora/releases/$releasever/Modular/source/tree/
+baseurl=https://mirrors.ustc.edu.cn/fedora/releases/$releasever/Modular/source/tree/
 enabled=0
 metadata_expire=7d
 repo_gpgcheck=0

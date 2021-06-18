@@ -15,7 +15,7 @@
 name=CentOS-$releasever - Extras
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras&infra=$infra
 #baseurl=http://mirror.centos.org/$contentdir/$releasever/extras/$basearch/os/
-baseurl=http://mirrors.163.com/centos/$releasever/extras/$basearch/os/
+baseurl=http://mirrors.ustc.edu.cn/centos/$releasever/extras/$basearch/os/
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial

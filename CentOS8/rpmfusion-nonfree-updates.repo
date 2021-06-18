@@ -2,7 +2,7 @@
 name=RPM Fusion for EL 8 - Nonfree - Updates
 #baseurl=http://download1.rpmfusion.org/nonfree/el/updates/8/$basearch/
 #mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-el-updates-released-8&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/rpmfusion/nonfree/el/updates/8/$basearch/
+baseurl=https://mirrors.ustc.edu.cn/rpmfusion/nonfree/el/updates/8/$basearch/
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-el-8
@@ -11,7 +11,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-el-8
 name=RPM Fusion for EL 8 - Nonfree - Updates Debug
 #baseurl=http://download1.rpmfusion.org/nonfree/el/updates/8/$basearch/debug/
 #mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-el-updates-released-debug-8&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/rpmfusion/nonfree/el/updates/8/$basearch/debug/
+baseurl=https://mirrors.ustc.edu.cn/rpmfusion/nonfree/el/updates/8/$basearch/debug/
 enabled=0
 type=rpm-md
 gpgcheck=1
@@ -21,7 +21,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-el-8
 name=RPM Fusion for EL 8 - Nonfree - Updates Source
 #baseurl=http://download1.rpmfusion.org/nonfree/el/updates/8/SRPMS/
 #mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-el-updates-released-source-8&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/rpmfusion/nonfree/el/updates/8/SRPMS/
+baseurl=https://mirrors.ustc.edu.cn/rpmfusion/nonfree/el/updates/8/SRPMS/
 enabled=0
 type=rpm-md
 gpgcheck=1

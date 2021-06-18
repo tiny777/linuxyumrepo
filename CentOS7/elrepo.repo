@@ -9,7 +9,7 @@ name=ELRepo.org Community Enterprise Linux Repository - el7
 #	http://mirror.rackspace.com/elrepo/elrepo/el7/$basearch/
 #	http://repos.lax-noc.com/elrepo/elrepo/el7/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el7
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/elrepo/elrepo/el7/$basearch/
+baseurl=https://mirrors.ustc.edu.cn/elrepo/elrepo/el7/$basearch/
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
@@ -22,7 +22,7 @@ name=ELRepo.org Community Enterprise Linux Testing Repository - el7
 #	http://mirror.rackspace.com/elrepo/testing/el7/$basearch/
 #	http://repos.lax-noc.com/elrepo/testing/el7/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo-testing.el7
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/elrepo/testing/el7/$basearch/
+baseurl=https://mirrors.ustc.edu.cn/elrepo/testing/el7/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
@@ -35,7 +35,7 @@ name=ELRepo.org Community Enterprise Linux Kernel Repository - el7
 #	http://mirror.rackspace.com/elrepo/kernel/el7/$basearch/
 #	http://repos.lax-noc.com/elrepo/kernel/el7/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo-kernel.el7
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/elrepo/kernel/el7/$basearch/
+baseurl=https://mirrors.ustc.edu.cn/elrepo/kernel/el7/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
@@ -48,7 +48,7 @@ name=ELRepo.org Community Enterprise Linux Extras Repository - el7
 #	http://mirror.rackspace.com/elrepo/extras/el7/$basearch/
 #	http://repos.lax-noc.com/elrepo/extras/el7/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo-extras.el7
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/elrepo/extras/el7/$basearch/
+baseurl=https://mirrors.ustc.edu.cn/elrepo/extras/el7/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org

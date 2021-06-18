@@ -2,7 +2,7 @@
 name=Extra Packages for Enterprise Linux 7 - Testing - $basearch
 #baseurl=http://download.fedoraproject.org/pub/epel/testing/7/$basearch
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=testing-epel7&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/testing/7/$basearch
+baseurl=https://mirrors.ustc.edu.cn/epel/testing/7/$basearch
 failovermethod=priority
 enabled=0
 gpgcheck=1
@@ -12,7 +12,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 name=Extra Packages for Enterprise Linux 7 - Testing - $basearch - Debug
 #baseurl=http://download.fedoraproject.org/pub/epel/testing/7/$basearch/debug
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=testing-debug-epel7&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/testing/7/$basearch/debug
+baseurl=https://mirrors.ustc.edu.cn/epel/testing/7/$basearch/debug
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
@@ -22,7 +22,7 @@ gpgcheck=1
 name=Extra Packages for Enterprise Linux 7 - Testing - $basearch - Source
 #baseurl=http://download.fedoraproject.org/pub/epel/testing/7/SRPMS
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=testing-source-epel7&arch=$basearch
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/epel/testing/7/SRPMS
+baseurl=https://mirrors.ustc.edu.cn/epel/testing/7/SRPMS
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
