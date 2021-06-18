@@ -1,2 +1,2 @@
 # LinuxYumRepo
-Linux's yum repo for CentOS7 adn CentOS8
+Linux's yum repo for CentOS7 and CentOS8
