@@ -10,7 +10,7 @@ baseurl=https://mirrors.ustc.edu.cn/elrepo/elrepo/el8/$basearch/
 #	http://repos.lax-noc.com/elrepo/elrepo/el8/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo.el8
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
 protect=0
 
@@ -23,7 +23,7 @@ baseurl=https://mirrors.ustc.edu.cn/elrepo/testing/el8/$basearch/
 #	http://repos.lax-noc.com/elrepo/testing/el8/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo-testing.el8
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
 protect=0
 
@@ -36,7 +36,7 @@ baseurl=https://mirrors.ustc.edu.cn/elrepo/kernel/el8/$basearch/
 #	http://repos.lax-noc.com/elrepo/kernel/el8/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo-kernel.el8
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
 protect=0
 
@@ -49,6 +49,6 @@ baseurl=https://mirrors.ustc.edu.cn/elrepo/extras/el8/$basearch/
 #	http://repos.lax-noc.com/elrepo/extras/el8/$basearch/
 #mirrorlist=http://mirrors.elrepo.org/mirrors-elrepo-extras.el8
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elrepo.org
 protect=0
