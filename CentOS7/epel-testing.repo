@@ -5,7 +5,7 @@ name=Extra Packages for Enterprise Linux 7 - Testing - $basearch
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/7/$basearch
 failovermethod=priority
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 
 [epel-testing-debuginfo]
@@ -16,7 +16,7 @@ baseurl=https://mirrors.ustc.edu.cn/epel/testing/7/$basearch/debug
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
-gpgcheck=1
+gpgcheck=0
 
 [epel-testing-source]
 name=Extra Packages for Enterprise Linux 7 - Testing - $basearch - Source
@@ -26,4 +26,4 @@ baseurl=https://mirrors.ustc.edu.cn/epel/testing/7/SRPMS
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
-gpgcheck=1
+gpgcheck=0
