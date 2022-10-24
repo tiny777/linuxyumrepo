@@ -4,7 +4,7 @@ name=Extra Packages for Enterprise Linux Modular $releasever - Testing - $basear
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=testing-modular-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/8/Modular/$basearch
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
 
 [epel-testing-modular-debuginfo]
@@ -13,7 +13,7 @@ name=Extra Packages for Enterprise Linux Modular $releasever - Testing - $basear
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=testing-modular-debug-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/8/Modular/$basearch/debug
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
-gpgcheck=1
+gpgcheck=0
 
 [epel-testing-modular-source]
 name=Extra Packages for Enterprise Linux Modular $releasever - Testing - $basearch - Source
@@ -22,5 +22,5 @@ name=Extra Packages for Enterprise Linux Modular $releasever - Testing - $basear
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/8/Modular/SRPMS
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
-gpgcheck=1
+gpgcheck=0
 

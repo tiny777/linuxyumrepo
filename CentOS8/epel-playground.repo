@@ -4,7 +4,7 @@ name=Extra Packages for Enterprise Linux $releasever - Playground - $basearch
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=playground-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 baseurl=https://mirrors.ustc.edu.cn/epel/playground/8/Everything/$basearch/os
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
 
 [epel-playground-debuginfo]
@@ -14,7 +14,7 @@ name=Extra Packages for Enterprise Linux $releasever - Playground - $basearch - 
 baseurl=https://mirrors.ustc.edu.cn/epel/playground/8/Everything/$basearch/debug
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
-gpgcheck=1
+gpgcheck=0
 
 [epel-playground-source]
 name=Extra Packages for Enterprise Linux $releasever - Playground - $basearch - Source
@@ -23,5 +23,5 @@ name=Extra Packages for Enterprise Linux $releasever - Playground - $basearch - 
 baseurl=https://mirrors.ustc.edu.cn/epel/playground/8/Everything/source/tree/
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
-gpgcheck=1
+gpgcheck=0
 

@@ -4,7 +4,7 @@ name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=testing-epel$releasever&arch=$basearch&infra=$infra&content=$contentdir
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/8/Everything/$basearch
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
 
 [epel-testing-debuginfo]
@@ -14,7 +14,7 @@ name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Deb
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/8/Everything/$basearch/debug
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
-gpgcheck=1
+gpgcheck=0
 
 [epel-testing-source]
 name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Source
@@ -23,4 +23,4 @@ name=Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Sou
 baseurl=https://mirrors.ustc.edu.cn/epel/testing/8/Everything/SRPMS
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-8
-gpgcheck=1     
+gpgcheck=0     
